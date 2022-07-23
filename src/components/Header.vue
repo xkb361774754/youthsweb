@@ -8,7 +8,7 @@
       />
       <div class="menu" @click="clickEnglish">
         <span v-if="!isEnglish">英文</span>
-        <span v-else>English</span>
+        <span v-else>CN</span>
       </div>
     </div>
     <div class="banner-content">
