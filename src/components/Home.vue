@@ -8,10 +8,10 @@
 
 <script>
 import HeaderName from './Header.vue'
-import ContentName from './YouthContent.vue'
-// import ContentName from './LinkvcContent.vue'
-import FooterName from './Footer.vue'
-// import FooterName from './FooterLinkvc.vue'
+// import ContentName from './YouthContent.vue'
+import ContentName from './LinkvcContent.vue'
+// import FooterName from './Footer.vue'
+import FooterName from './FooterLinkvc.vue'
 export default {
   name: 'HelloWorld',
   components: {

@@ -34,7 +34,7 @@
         </div>
       </div>
       <div v-else class="container">
-        <h2 class="captor-title">Vison, Mission and Values Statements</h2>
+        <h2 class="captor-title">Vision, Mission and Values Statements</h2>
         <div class="mobile-text">
           <p>Vision: Make everyday life more prosperous and inspirating for everyone</p>
           <br />
