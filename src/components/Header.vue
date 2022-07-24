@@ -14,8 +14,8 @@
     <div class="banner-content">
       <canvas id="waves" width="100vw" height="150"/>
       <div class="container"> 
-        <h2 v-if="!isEnglish">让未来触手可及</h2>
-        <h2 v-else>Bring the future within reach</h2>
+        <h2 v-if="!isEnglish">让未来科技触手可及</h2>
+        <h2 v-else>Bring the future technology within reach</h2>
         <p v-if="!isEnglish">
           投资 <span class="dot" /> 研究 <span class="dot" /> 咨询
         </p>
