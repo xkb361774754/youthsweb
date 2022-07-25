@@ -4,12 +4,12 @@
       <div class="container">
         <div class="footer-content">
           <div v-if="!isEnglish" class="footer-content-item">
-            <p class="bold" :style="{marginBottom: '0px'}">联系方式 : Davie98@qq.com</p>
+            <p class="bold" :style="{marginBottom: '0px'}">联系方式 : invest@youthf.com.cn</p>
             <p class="bold">中青弘丰（厦门）投资有限公司</p>
             <p class="bold">地址：厦门市思明区中航紫金广场</p>
           </div>
           <div v-else class="footer-content-item">
-            <p class="bold" :style="{marginBottom: '0px'}">Contact information : Davie98@qq.com</p>
+            <p class="bold" :style="{marginBottom: '0px'}">Contact information : invest@youthf.com.cn</p>
             <p class="bold">Zhongqing Hongfeng (Xiamen) Investment Co., LTD</p>
             <p class="bold">Address: Zijin Plaza, Siming District, Xiamen</p>
           </div>

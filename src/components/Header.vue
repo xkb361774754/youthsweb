@@ -2,10 +2,13 @@
   <!-- 首页头部banner模块 -->
   <div class="banner">
     <div class="header">
-      <img 
-        src="../assets/logo_hf.png"
-        class="logo"
-      />
+      <div class="logoWrp">
+        <img 
+          src="../assets/logo_hf.png"
+          class="logo"
+        />
+        HONGFENG INVESTMENT
+      </div>
       <div class="menu" @click="clickEnglish">
         <span v-if="!isEnglish">英文</span>
         <span v-else>CN</span>
@@ -20,7 +23,7 @@
           投资 <span class="dot" /> 研究 <span class="dot" /> 咨询
         </p>
         <p v-else>
-          Investment <span class="dot" /> Research <span class="dot" /> Advisory
+          Invest <span class="dot" /> Research <span class="dot" /> Advisory
         </p>
       </div>
     </div>
@@ -51,16 +54,24 @@ export default {
   justify-content: space-between;
   align-items: center;
 }
+.logoWrp {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #3c55f4f7;
 
+}
 
 .logo {
-  width: 240px;
+  width: 30px;
   height: 30px;
+  vertical-align: middle;
 }
+
+
 .menu {
   color: #FFF;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,9 +131,21 @@ export default {
   line-height: 80px;
 }
 
+.logoWrp {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #3c55f4f7;
+}
+
+
 .logo {
-  padding-top: 12px;
-  width: 100px;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.menu {
+  font-size: 14px;
 }
 
 .banner-content {

@@ -28,9 +28,9 @@ export default {
     changeEnglish(isEnglish) {
       this.isEnglish = isEnglish;
       if(isEnglish) {
-        document.title = 'EN | HongFeng - Bring the future technology within reach'
+        document.title = 'EN | HongFeng - Bring the future within reach'
       } else {
-        document.title = 'CN | 弘丰科技-让未来科技触手可及'
+        document.title = 'CN | 弘丰科技-让未来触手可及'
       }
     }
   }
