@@ -7,10 +7,8 @@
 </template>
 
 <script>
-import HeaderName from './Header.vue'
-// import ContentName from './YouthContent.vue'
-import ContentName from './LinkvcContent.vue'
-// import FooterName from './Footer.vue'
+import HeaderName from './Header.vue';
+import ContentName from './LinkvcContent.vue';
 import FooterName from './FooterLinkvc.vue'
 export default {
   name: 'HelloWorld',
@@ -28,9 +26,9 @@ export default {
     changeEnglish(isEnglish) {
       this.isEnglish = isEnglish;
       if(isEnglish) {
-        document.title = 'EN | HongFeng - Bring the future within reach'
+        document.title = 'EN | HongFeng Investment - Bring the future within reach'
       } else {
-        document.title = 'CN | 弘丰科技-让未来触手可及'
+        document.title = 'CN | 弘丰投资-让未来触手可及'
       }
     }
   }

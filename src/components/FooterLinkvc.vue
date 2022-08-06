@@ -10,11 +10,11 @@
           </div>
           <div v-else class="footer-content-item">
             <p class="bold" :style="{marginBottom: '0px'}">Contact information : invest@youthf.com.cn</p>
-            <p class="bold">Zhongqing Hongfeng (Xiamen) Investment Co., LTD</p>
+            <p class="bold">Zhongqing HongFeng (Xiamen) Investment Co., LTD</p>
             <p class="bold">Address: Zijin Plaza, Siming District, Xiamen</p>
           </div>
           <div class="footer-content-item right">
-            <p class="copyright">Copyright © 2021 HONGFENG TECHNOLOGY, All rights reserved</p>
+            <p class="copyright">Copyright © 2022 ZhongQing HongFeng, All rights reserved</p>
           </div>
         </div>
       </div>
